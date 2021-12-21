@@ -5,6 +5,7 @@ import android.app.Application
 class MyApp: Application() {
     override fun onCreate() {
         super.onCreate()
-        FloatWindowManager.init(this)
+//        FloatWindowManager.init(this)
+        FloatWindowPer().init(this)
     }
 }
